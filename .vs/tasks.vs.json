@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskName": "task-Header Image",
+      "appliesTo": "images/Header Image.png",
+      "type": "command"
+    }
+  ]
+}

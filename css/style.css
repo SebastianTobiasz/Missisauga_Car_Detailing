@@ -56,7 +56,10 @@ a.pricing-services:hover{
     font-family: "lato";
     font-size: 16px;
     font-weight: 600;
-    line-height: 28px;
+    line-height: 30px;
+    letter-spacing:2px;
+    padding-bottom:10px;
+    
 }
 .footerText a{
 	color: white;
@@ -200,4 +203,12 @@ footer {
     }
 .navbar-inverse .navbar-nav > li > a {
     color: white;
+}
+.touchupRepairText {
+    color: #364C4D;
+    
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: center;
 }
