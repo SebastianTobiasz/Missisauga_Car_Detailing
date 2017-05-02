@@ -32,7 +32,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html"><img src="images/cardetailinglogo.png" alt="Missisauga Car Detailing Logo" /></a>
+                <a class="navbar-brand" href="/"><img src="images/cardetailinglogo.png" alt="Missisauga Car Detailing Logo" /></a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
@@ -45,32 +45,32 @@
     </nav>
     <div style="width:100%; background-color: #ADDADB; height: 10px;margin-bottom: 21px; margin-top:101px"></div>
 <div class="rectangle-5">
-    <h1 class="container pricing-services2">Pricing &amp; Services</h1>
+    <h1 class="container pricing-services2" id="DetailingPackages">Pricing &amp; Services</h1>
 </div>
 <div class="pricing-background" style="padding-bottom:25px;">
-    <h1 class="container detailing-packages2" id="DetailingPackages"> Detailing Packages</h1>
-    
-    <div class="container" style="background-image:url('/images/StripedBGDetailPackages.png' ); align-items:center; background-size:100%; border-radius: 25px;" >
-    
-        <div class="row" style="width:50%;margin-left:25% ; margin-bottom:25px; text-align:center">
-            <h1 class="platinum2">Platinum <br><span class="glyphicon glyphicon-star" style="color:#FFFACC" /><span class="glyphicon glyphicon-star" style="color:#FFFACC" /><span class="glyphicon glyphicon-star" style="color:#FFFACC" /> </h1>
+    <h1 class="container detailing-packages2" > Detailing Packages</h1>
+    <br />
+    <div class="container" style="background-image:url('/images/Striped BG Detail Packages 1.png' ); text-align:center; background-size:100%;border-radius:25px;" >
+        <h1 class="platinum2">Platinum <br><span class="glyphicon glyphicon-star" style="color:#FFFACC" /><span class="glyphicon glyphicon-star" style="color:#FFFACC" /><span class="glyphicon glyphicon-star" style="color:#FFFACC" /> </h1>  
+        <div class="row" style="text-align:left; width:60%;margin-left:30%; margin-bottom:25px;">
             <div class="col-md-6" >
                 <span class="package_text">Hand Wash<br>Full Interior<br>Complete Vacuum<br>Leather Clean+Shine<br>
                 &nbsp;<br />
                 Tire Dressing<br>Tire and Rim Detailing<br>Engine Shampoo<br />
                 &nbsp;<br /></span>
-               <span class="package_price"> Cars: $189</span>
+               <span class="package_price" style="margin-left:25%;"> Cars: $189</span>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6" >
                 <span class="package_text">Roof Liner<br>Full Body Wax<br>Clay Bar Treatment<br>Interior Shampooing<br />
                     &nbsp;<br />
                     Complete Detail<br>In & Out Windows<br>Door Jam Cleaning<br />
                     &nbsp;<br /></span>
-                <span class="package_price">SUVs: $199</span>
+                <span class="package_price" >SUVs: $199</span>
             </div>
         </div>
     </div> 
-    <div class="container" style="background-image:url('/images/StripedBGDetailPackages.png' ); align-items:center; text-align:center; margin-top:25px; padding-top:25px;  background-size:100%; border-radius: 25px;" >
+    
+    <div class="container" style="background-image:url('/images/Striped BG Detail Packages 2.png' ); align-items:center; text-align:center; margin-top:25px; padding-top:25px;  background-size:100%;border-radius:25px; " >
         <div class="row" style="width:50%;margin-left:auto;margin-right:auto ; margin-bottom:25px; text-align:center">
             <div class="col-md-6">
                 <table style="width: 100%;">
@@ -88,6 +88,9 @@
                     </tr>
                     <tr>
                         <td class="package_text">Interior Shampooing</td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
                     </tr>
                     <tr>
                         <td class="package_text">Leather Clean+Shine</td>
@@ -126,6 +129,9 @@
                     <tr>
                         <td class="package_text">Complete Body Wax</td>
                     </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                    </tr>
                     <tr><td class="package_text">Tire and Rim</td></tr>
                     <tr><td class="package_text">Detailing</td></tr>
                     <tr><td class="package_text">Tire Dressing</td></tr>
@@ -142,11 +148,11 @@
     </div>
     <h1 class="container detailing-packages2" style="color:white ;margin-top:50px;">Other Detailing Services</h1>
     <div></div>
-    <table class="container" style="color:white; width:50%; text-align:center; margin-top:25px; margin-bottom:50px">
+    <table class="container" style="color:white; width:50%; text-align:left; margin-top:25px; margin-bottom:50px">
         <tr>
-            <td class="platinum2" >Hand Wash</td>
-            <td colspan="2" class="platinum2" >In &amp; Out</td>
-            <td class="platinum2">Wash &amp; Engine</td>
+            <td class="platinum2" style="text-align:left;">Hand Wash</td>
+            <td colspan="2" class="platinum2" style="text-align:left;">In &amp; Out</td>
+            <td class="platinum2"style="text-align:left;">Wash &amp; Engine</td>
         </tr>
         <tr>
             <td class="package_text">Hand Exterior Wash &amp; Dry</td>
@@ -167,16 +173,16 @@
             <td>&nbsp;</td>
         </tr>
         <tr>
-            <td class="package_price" >Cars:$19&nbsp;&nbsp;&nbsp;SUVs:$29</td>
-            <td class="package_price"  colspan="2">Cars:$49&nbsp;&nbsp;&nbsp;SUVs:$59</td>
-            <td class="package_price" >Cars:$49&nbsp;&nbsp;&nbsp;SUVs:$59</td>
+            <td style="text-align:left;" class="package_price" id="TouchUpRepair">Cars:$19&nbsp;&nbsp;&nbsp;SUVs:$29</td>
+            <td style="text-align:left;" class="package_price"  colspan="2">Cars:$49&nbsp;&nbsp;&nbsp;SUVs:$59</td>
+            <td style="text-align:left;" class="package_price" >Cars:$49&nbsp;&nbsp;&nbsp;SUVs:$59</td>
         </tr>
 
 
     </table>
 </div>
     <div class="container">
-        <h1 id="TouchUpRepair" class="container detailing-packages2" style="color:#425e5f ;margin-top:50px;">Touch-up/Repair Services</h1>
+        <h1  class="container detailing-packages2" style="color:#425e5f ;margin-top:50px;">Touch-up/Repair Services</h1>
         <div class="row" style="text-align:center; margin-top:25px;  margin-bottom:25px;">
             <div class="col-md-6">
                 <img class="img-fluid" src="images\car cracked.png" alt="cracked windshield" /><br /><br />
@@ -211,8 +217,8 @@
         <div class="container footerText" style="text-align:center; min-height: 110px; padding-top: 25px;">
             
             <div class="row">
-                <div class="col-md-4"><span class="brandico-facebook-rect"></span> @MississaugaDetailing<br>
-                    <span class="brandico-linkedin-rect"></span> @missisaugacardetailing
+                <div class="col-md-4"><a href="https://www.facebook.com/mississaugadetailing"><span class="brandico-facebook-rect"></span> @MississaugaDetailing</a><br>
+                    <a href="https://www.instagram.com/mississaugacardetailing"><span class="brandico-instagram"></span> @missisaugacardetailing</a>
                 </div>
                 <div class="col-md-4"><span class="glyphicon glyphicon-earphone"></span> 647-546-2866</div>
                 <div class="col-md-4" style="line-height: 15px; margin-top:5px;"><span class="glyphicon glyphicon-envelope"></span> 2576 Dunwin Dr. Unit 8.<br>
