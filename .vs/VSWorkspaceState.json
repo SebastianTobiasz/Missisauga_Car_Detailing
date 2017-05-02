@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\images"
+    "\\js",
+    "\\php",
+    "\\php\\css"
   ],
-  "SelectedNode": "\\images\\Header Image 2.png",
+  "SelectedNode": "\\php\\secure_email_form.php",
   "PreviewInSolutionExplorer": false
 }
